@@ -1,0 +1,22 @@
+{
+    "name": "wdio-sl",
+    "description": "",
+    "scripts": {
+        "start": "next start -p 3000",
+        "test": "wdio wdio.conf.js",
+        "build": "next build"
+    },
+    "dependencies": {
+        "next": "^8.0.3",
+        "react": "^16.8.2",
+        "react-dom": "^16.8.2"
+    },
+    "devDependencies": {
+        "@wdio/cli": "^5.7.2",
+        "@wdio/jasmine-framework": "^5.7.2",
+        "@wdio/local-runner": "^5.7.2",
+        "@wdio/sauce-service": "^5.7.2",
+        "@wdio/spec-reporter": "^5.7.2",
+        "webdriverio": "^5.7.2"
+    }
+}
